@@ -66,10 +66,10 @@ const NewContact = ({onNewContact}) => {
                         <Field type='text' name='avatar'/>
                         <ErrorMessage name='avatar' />
                     </div> */}
-                    <div>
+                    <div className='div_label'>
                         <label htmlFor='avatar'>Avatar</label>
                         <Field type='number' name='avatar' min={0} max={99}/>
-                        <ErrorMessage name='avatar' />
+                        <ErrorMessage name='avatar' component='p'/>
                     </div>
                     {/* <div className='div_label'>
                         <label htmlFor='avatar'>Avatar</label>
