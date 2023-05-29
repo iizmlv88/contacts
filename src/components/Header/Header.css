@@ -1,0 +1,28 @@
+.header {
+    /* width: 100%; */
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    /* justify-content: flex-start; */
+    align-items: center;
+    /* gap: 10px; */
+    background: rgb(35, 35, 35, 0.500);
+    border-radius: 15px;
+
+}
+
+#contactsApp {
+    background: -webkit-linear-gradient(45deg, red, #fff 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: xx-large;
+    font-weight: bolder;
+    /* padding-left: 10px; */
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}

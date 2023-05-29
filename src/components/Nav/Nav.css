@@ -1,0 +1,24 @@
+a {
+    text-decoration: none;
+    color: red;
+}
+.nav_nav {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background:rgb(35, 35, 35, 0.500);
+    border-radius: 15px;
+    padding: 10px 0;
+    color: #fff;
+}
+.nav_nav>div {
+    width: 120px;
+
+}
+.nav>div>a:hover,
+.nav_nav>div>a:hover {
+    font-weight: bolder;
+    color: #fff;
+}

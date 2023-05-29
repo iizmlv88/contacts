@@ -1,0 +1,12 @@
+.ulSidebar{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    list-style: none;
+    gap: 10px;
+    color: #fff;
+}
+span {
+    font-weight: bolder;
+}
